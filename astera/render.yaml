@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: astera-service
-    env: node
-    buildCommand: npm install
-    startCommand: node server/server.js
-    workingDirectory: ./Astera
